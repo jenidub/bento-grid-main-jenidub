@@ -68,7 +68,8 @@ body {
     background-color: #E1DEE1;
 }
 
-#manage-multiple-container p {
+#manage-multiple-container h2,
+#maintain-posting-container h2 {
     width: 90%;
     font-size: 24px;
     font-weight: 500;
@@ -82,6 +83,54 @@ body {
     width: 90%;
     margin: 10px 0;
 }
+
+/* maintain-posting-container */
+#maintain-posting-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #ffcc68;
+}
+
+#maintain-posting-container img {
+    width: 50%;
+    margin: 0 15px;
+}
+
+#maintain-posting-container h2 {
+    margin: 15px;
+}
+
+/* schedule-to-sm-container */
+#schedule-to-sm-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #dcd0fc;
+}
+
+#schedule-to-sm-container img {
+    width: 90%;
+}
+
+#schedule-to-sm-container h2 {
+    width: 90%;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 0.9em;
+    letter-spacing: -0.02em;
+    margin: 25px 20px;
+}
+
+#schedule-to-sm-container p {
+    width: 90%;
+    font-size: 18px;
+    line-height: 1em;
+}
+
 
 /* FE Mentor Provided Styles */
 .attribution {
